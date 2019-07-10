@@ -1,0 +1,31 @@
+/* model */
+*.params
+*.pth  
+*.weights   
+
+
+/* image */
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+
+/* video */
+*.mp4
+*.avi
+
+
+__pycache__/
+*.pyc
+*.pyx
+*.tar  
+*.log 
+
+
+/* file  */
+*.npy  
+*.pkl  
+*.pyc 
+
+/* action_recognition/ */
