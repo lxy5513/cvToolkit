@@ -24,11 +24,11 @@
 
 
 ## Install  
-Install pytorch >= v1.0.0  
+> Install pytorch >= v1.0.0  
 pip install -r requirment.txt  
 
 ## Make  
-cd kps2d_detection/hr_net/lib/  
+> cd kps2d_detection/hr_net/lib/  
 make  
 
 
