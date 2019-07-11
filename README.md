@@ -4,25 +4,32 @@
     Human Bbox Detection  
     - [x] YoloV3 
     - RFCN  
-    - FasterRCNN  
     - CornerNet
 
-- 2D pose estimation  
-    - [x] Simple Base Line 
-    - [x] High Resolution Network  
-    - [x] Ahlpha Pose   
+- 2D pose estimation (kps2d__detection)
+    - [x] Simple BaseLine 
+    - [x] High Resolution Network (hr_net)
+    - [x] Open Pose
 
-- 3D pose estimation 
+- 3D pose estimation (kps3d_detection)
     - VideoPose3D  
 
 - Object Tracking  
-    - Human Tracking  
-    - Flow Net
+    - [x]lighttrack
 
 - ActionRecgnition 
     - ST-GCN  
-    - AS-GCN  
+    - 2S-AGCN
 
+
+
+## Install  
+Install pytorch >= v1.0.0  
+pip install -r requirment.txt  
+
+## Make  
+cd kps2d_detection/hr_net/lib/  
+make  
 
 
 ## Example of Human Bbox Detection  
@@ -36,6 +43,3 @@
     inference(im, model)
     ```
 
-
-## Install  
-Install pytorch >= v1.0.0  

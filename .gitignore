@@ -2,6 +2,8 @@
 *.params
 *.pth  
 *.weights   
+*.ckpt*
+*.pt
 
 
 /* image */
@@ -27,5 +29,12 @@ __pycache__/
 *.npy  
 *.pkl  
 *.pyc 
+*.json
+*.tgz
+*.zip
 
-/* action_recognition/ */
+/* other */
+*.so
+*.pyc
+*.DS_Store
+data/
