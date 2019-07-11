@@ -19,8 +19,3 @@ hrnet:25/second
 ## demo  
 python demo.py -p 0 (0->simple baseline; 1->hrnet)
 
-## install 
-pytorch 1.0.1+
-
-### make  
-`make gpu nms` 
