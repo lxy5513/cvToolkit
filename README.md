@@ -44,12 +44,17 @@ make
     ```
 
 ## Example of pose track
-    ```
-    cd  pose_track/lighttrack/  
-    python demo.py 
-    ```
     
+  > cd  pose_track/lighttrack/  
 
+
+
+   - python demo.py -p 0 (pose estimator is simple-baseline,  pose speed 90 person/s)
+   <p align="center"><img src="pose_track/lighttrack/data/hrnet_result.gif" width="70%" alt="" /></p>
+  
+
+   - python demo.py -p 1 (pose estimator is hrnet,  pose speed 25 person/s)
+   <p align="center"><img src="pose_track/lighttrack/data/hrnet_result.gif" width="70%" alt="" /></p>
 
 
 
