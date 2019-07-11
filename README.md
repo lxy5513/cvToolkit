@@ -32,6 +32,10 @@ pip install -r requirment.txt
 > cd kps2d_detection/hr_net/lib/
 make
 
+## add Environment Variable 
+vim ~/.bashrc
+export PATH=/path/to/cvToolBox:$PATH
+export PYTHONPATH=/path/to/cvToolBox:$PYTHONPATH
 
 ## Example of Human Bbox Detection
     ```
