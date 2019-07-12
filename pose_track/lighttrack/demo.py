@@ -381,7 +381,7 @@ def visualize_img(img, candidates, img_id, change_color=None):
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument('--video', '-v', type=str, dest='video_path', default="/path/to/cvToolBox/data/football.mp4")
+    parser.add_argument('--video', '-v', type=str, dest='video_path', default=os.path.join(os.environ.get("CVTOOLBOX"), 'data/football.mp4'))
     parser.add_argument('--pose_detector', '-p', type=int, default=0)
     args = parser.parse_args()
     args.bbox_thresh = 0.4

@@ -1,4 +1,4 @@
-# command line: demo.py -p 1
+# command line: demo.py
 
 config: graph/config/inference.yaml
 device:
@@ -12,7 +12,7 @@ model_args:
         strategy: spatial
     in_channels: 2
     num_class: 128
-pose_detector: 1
+pose_detector: 0
 print_log: true
 save_log: true
 use_gpu: true

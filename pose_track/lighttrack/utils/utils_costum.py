@@ -36,7 +36,6 @@ def draw_bbox(img, bbox, text=None, change_color=None):
     pt1 = (int(x1), int(y1))
     pt2 = (int(x1+w), int(y1+h))
     if change_color:
-        print('---------------------------------------------------')
         img = cv2.rectangle(img, pt1, pt2, (2,0,2), 3, 2)
     else:
         img = cv2.rectangle(img, pt1, pt2, (255,0,255), 3, 2)

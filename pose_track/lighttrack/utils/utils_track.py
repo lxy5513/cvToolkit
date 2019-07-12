@@ -2,9 +2,10 @@ import sys
 import os
 import cv2
 import numpy as np
-from utils_custom import convert_coco_poseTrack
 sys.path.append(os.path.abspath("./../graph/"))
 from graph.visualize_pose_matching import pose_matching, graph_pair_to_data
+from utils_custom import convert_coco_poseTrack
+
 
 def get_track_id_SGCN(bbox_cur_frame, bbox_list_prev_frame, keypoints_cur_frame, keypoints_list_prev_frame, pose_matching_threshold=0.5):
     assert(len(bbox_list_prev_frame) == len(keypoints_list_prev_frame))
