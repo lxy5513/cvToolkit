@@ -42,7 +42,9 @@ python setup.py install
 
 ## add Environment Variable
 > vim ~/.bashrc
+
 export PATH=/path/to/cvToolBox:$PATH
+
 export PYTHONPATH=/path/to/cvToolBox:$PYTHONPATH
 
 <br>
