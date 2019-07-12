@@ -28,17 +28,24 @@
 > Install pytorch >= v1.0.0
 pip install -r requirment.txt
 
+
+<br>
+
 ## Make
 > cd kps2d_detection/hr_net/lib/
 make
+
 > cd pose_track/lighttrack/graph/torchlight
 python setup.py install
 
+<br>
 
 ## add Environment Variable
 > vim ~/.bashrc
 export PATH=/path/to/cvToolBox:$PATH
 export PYTHONPATH=/path/to/cvToolBox:$PYTHONPATH
+
+<br>
 
 ## Example of Human Bbox Detection
     ```
@@ -50,6 +57,8 @@ export PYTHONPATH=/path/to/cvToolBox:$PYTHONPATH
     # return bbox and its probability
     inference(im, model)
     ```
+
+<br>
 
 ## Example of pose track
 
