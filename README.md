@@ -29,14 +29,14 @@
 pip install -r requirment.txt
 
 ## Make
-> cd kps2d_detection/hr_net/lib/  
-make   
-> cd pose_track/lighttrack/graph/torchlight    
+> cd kps2d_detection/hr_net/lib/
+make
+> cd pose_track/lighttrack/graph/torchlight
 python setup.py install
 
 
-## add Environment Variable 
-vim ~/.bashrc
+## add Environment Variable
+> vim ~/.bashrc
 export PATH=/path/to/cvToolBox:$PATH
 export PYTHONPATH=/path/to/cvToolBox:$PYTHONPATH
 
